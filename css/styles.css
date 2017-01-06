@@ -1,6 +1,9 @@
 header, form {
   margin-left: 20px;
 }
+header h1 {
+  font-weight: bolder;
+}
 .results {
   width: 90%;
   margin: 10px auto;
@@ -24,4 +27,7 @@ header, form {
   width: 30%;
   margin: 0 auto 10px auto;
   margin-bottom: 10px;
+}
+button {
+  margin-top: 15px;
 }
