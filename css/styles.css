@@ -1,6 +1,9 @@
+header, form {
+  margin-left: 20px;
+}
 .results {
   width: 90%;
-  margin: 0 auto;
+  margin: 10px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -18,8 +21,7 @@
 }
 
 .doctorImage {
-  width: 40%;
-
+  width: 30%;
   margin: 0 auto 10px auto;
   margin-bottom: 10px;
 }
