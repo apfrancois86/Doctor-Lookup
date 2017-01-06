@@ -2,7 +2,7 @@ var Search = require('./../js/doctor.js').doctorSearch;
 
 var Doctor = function(searchResults) {
   for(var i =0; i<searchResults.data.length; i++){
-    $('.results').append('<div class="doctorResults">'+ '<h2>' + searchResults.data[i].profile.first_name + " " + searchResults.data[i].profile.last_name + '</h2>' + '<li>' + searchResults.data[i].profile.bio + '</li>'+ '</div>');
+    $('.results').append('<div class="doctorResults">'+ '<h2>' + searchResults.data[i].profile.first_name + " " + searchResults.data[i].profile.last_name + '</h2>' + '<img class="doctorImage" src=' + searchResults.data[i].profile.image_url + '>' + '<li>' + searchResults.data[i].profile.bio + '</li>'+ '</div>');
   }
 };
 
