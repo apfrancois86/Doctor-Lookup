@@ -13,6 +13,5 @@ $(document).ready(function(){
     var currentSearch = new Search();
     var symptom = $('#symptom').val();
     currentSearch.getDoctors(symptom, Doctor);
-    console.log(currentSearch);
   });
 });
